@@ -1,0 +1,42 @@
+.wrapper {
+    margin: 2rem;
+    padding: 1rem;
+    max-width: 40rem;
+    max-height: fit-content;
+    display: flex;
+}
+
+#input-task {
+    width: 80%;
+    height: 4rem;
+    margin-right: 1rem;
+    font-size: 3rem;
+}
+
+#btnSave, #btnDel {
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 5px;
+}
+
+#wrapperBtn {
+    display: flex;
+    flex-direction: column
+}
+
+.listItem {
+    list-style: none;
+}
+
+.done {
+    text-decoration: line-through;
+    list-style: none;
+}
+
+li {
+    font-size: 1.5rem; 
+}
+
+#checkbox1 {
+    margin-left: 1rem;
+}
